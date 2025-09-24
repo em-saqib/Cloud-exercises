@@ -22,5 +22,11 @@ sudo cat /var/snap/microstack/common/etc/microstack.rc
 1. Install Docker (Goto installation methods) : https://docs.docker.com/engine/install/ubuntu/
 2. Installa Kathara Framework : https://github.com/KatharaFramework/Kathara/wiki/Linux
 
+# Download Kathara Labs
+sudo git clone https://github.com/KatharaFramework/Kathara-Labs.git
+cd Kathara-Labs/main-labs
+
+
+
 
 
