@@ -1,0 +1,26 @@
+# Create a Ubuntu VM
+
+# Install MicroStack (light version of OpenStack)
+sudo snap install microstack --devmode --edge
+sudo microstack init --auto --control
+
+# To start/restart microstack
+sudo snap restart microstack
+
+# Check the services status
+sudo snap services microstack
+
+# Running address
+https://localhost/
+
+# Get the password for admin user: looks for OS_PASSWORD
+sudo cat /var/snap/microstack/common/etc/microstack.rc
+
+
+
+# Install Kathara for lightweight exercises
+1. Install Docker (Goto installation methods) : https://docs.docker.com/engine/install/ubuntu/
+2. Installa Kathara Framework : https://github.com/KatharaFramework/Kathara/wiki/Linux
+
+
+
